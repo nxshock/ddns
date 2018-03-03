@@ -39,4 +39,5 @@ To enable automatic updates use:
 
 ```sh
 systemctl enable ddns.timer
+systemctl start ddns.timer
 ```
