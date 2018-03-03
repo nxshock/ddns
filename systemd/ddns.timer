@@ -2,6 +2,7 @@
 Description=Update dynamic DNS every 15 min
 
 [Timer]
+OnActiveSec=5
 OnBootSec=5
 OnUnitActiveSec=15m
 Unit=ddns.service
