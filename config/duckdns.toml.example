@@ -1,0 +1,6 @@
+Name = "duckdns.org"
+URL = "https://www.duckdns.org/update?domains=$domains&token=$token"
+
+[Params]
+  domains = ""
+  token = ""

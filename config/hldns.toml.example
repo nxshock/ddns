@@ -1,0 +1,5 @@
+Name = "hldns.ru"
+URL = "http://hldns.ru/update/$key"
+
+[Params]
+  key = ""

@@ -1,0 +1,10 @@
+[Unit]
+Description=Update dynamic DNS every 15 min
+
+[Timer]
+OnBootSec=5
+OnUnitActiveSec=15m
+Unit=ddns.service
+
+[Install]
+WantedBy=multi-user.target
