@@ -19,9 +19,11 @@ pacman -U ddns-0.0-0-x86_64.pkg.tar.xz
 
 ## Configure
 
-The `ddns` configuration files are stored in `/etc/ddns/` and example configuration files are available in `/etc/ddns/examples/`.
+The `ddns` configuration files are stored in `/etc/ddns/` and example
+configuration files are available in `/etc/ddns/examples/`.
 
-To use an example configuration, simply copy it from `/etc/ddns/examples/` to `/etc/ddns/` and configure it with your credentials.
+To use an example configuration, simply copy it from `/etc/ddns/examples/` to
+`/etc/ddns/` and configure it with your credentials.
 
 ## Usage
 
