@@ -57,3 +57,10 @@ Logs are accessible by:
 ```sh
 journalctl -u ddns.service
 ```
+
+## Supported DDNS providers
+
+Name                                | File
+----------------------------------- | ----------------------------------
+[Duck DNS](https://www.duckdns.org) | /etc/examples/duckdns.toml.example
+[hldns.ru](https://hldns.ru)        | /etc/examples/hldns.toml.example
