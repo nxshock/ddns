@@ -43,3 +43,11 @@ To enable automatic updates use:
 systemctl enable ddns.timer
 systemctl start ddns.timer
 ```
+
+### Logs
+
+Logs are accessible by:
+
+```sh
+journalctl -u ddns.service
+```
