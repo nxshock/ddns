@@ -4,7 +4,9 @@ Simple dynamic DNS updater written in Go.
 
 ## Install
 
-Create package file for Arch Linux:
+### ![Arch Linux Logo](https://www.archlinux.org/favicon.ico) Arch Linux
+
+Create package:
 
 ```sh
 curl -O https://raw.githubusercontent.com/nxshock/ddns/master/PKGBUILD
@@ -16,6 +18,10 @@ Install package:
 ```sh
 pacman -U ddns-0.0-0-x86_64.pkg.tar.xz
 ```
+
+### Other distros
+
+You can build package manually with [Makefile](https://github.com/nxshock/ddns/blob/master/Makefile).
 
 ## Configure
 
