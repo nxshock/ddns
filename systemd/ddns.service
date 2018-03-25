@@ -1,6 +1,7 @@
 [Unit]
 Description=Update dynamic DNS
-After=network.target network-online.target
+Wants=network-online.target
+After=network-online.target
 
 [Service]
 Type=oneshot
