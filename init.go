@@ -2,13 +2,10 @@ package main
 
 import (
 	"flag"
-	"log"
 	"net/http"
 )
 
 func init() {
-	log.SetFlags(0)
-
 	initFlags()
 	initHTTPClient()
 }
